@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>siguiente</ion-title>
+  </ion-navbar>
+  <ion-toolbar>
+  <ion-title>La saga Crepusculo</ion-title>
+</ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+<ion-list>
+
+  <ion-item>
+    <ion-label>Pepperoni</ion-label>
+    <ion-checkbox [(ngModel)]="pepperoni"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Sausage</ion-label>
+    <ion-checkbox [(ngModel)]="sausage" disabled="true"></ion-checkbox>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Mushrooms</ion-label>
+    <ion-checkbox [(ngModel)]="mushrooms"></ion-checkbox>
+  </ion-item>
+
+</ion-list>
+  <p>
+    This starter project comes with simple tabs-based layout for apps
+    that are going to primarily use a Tabbed UI.
+  </p>
+  <p>
+    Take a look at the <code>src/pages/</code> directory to add or change tabs,
+    update any existing page or create new pages.
+  </p>
+</ion-content>
